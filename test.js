@@ -17,4 +17,5 @@ fs.readFile("fichier1.txt" , {encoding : 'utf-8'} , function(error, data){consol
 console.log("la méthode redafile() a été appelée");
 
 var colors = require("colors");
-console.log("colors = ", colors);
+console.log(colors.random("1er texte"));
+console.log(colors.random("2eme texte"));
