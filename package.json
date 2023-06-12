@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "frontend": "http-server",
-    "backend": "json-server -w db.json"
+    "backend": "json-server -w db.json",
+    "start": "node test.js"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "http-server": "^0.12.3"
   },
   "devDependencies": {

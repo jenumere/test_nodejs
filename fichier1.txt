@@ -1,0 +1,4 @@
+Ceci est le contenu
+du fichier fichier1.txt
+situé dans le répertoire
+courant.
